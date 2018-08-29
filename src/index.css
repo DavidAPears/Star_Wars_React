@@ -2,4 +2,22 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url('http://anne-crea.com/annecrea/11661-starwars-wallpapers_24386.png');
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ font-family: 'Audiowide', cursive;
+}
+
+.results-box {
+  font-color: #ff1d8e;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ position: relative;
+ background-color: rgb(255,255,255, 0.25);
+ border-radius: 25px;
+ margin: 20px;
+ border: 2px solid yellow;
 }

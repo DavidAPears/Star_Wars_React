@@ -37,7 +37,6 @@ handleCharacterSelected(index) {
 render() {
   return(
     <div className="star-wars-container">
-    <h2>Star Wars Heading</h2>
     <CharacterSelector characters={this.state.characters}
       onCharacterSelected = {this.handleCharacterSelected}/>
     <CharacterDetail selectedCharacter={this.state.selectedCharacter}/>
